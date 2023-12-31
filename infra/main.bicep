@@ -1,4 +1,7 @@
-targetScope = 'subscription'
+//targetScope = 'subscription'
+//Changed to enable running of code without subscription level permissions
+//https://github.com/Azure-Samples/azure-search-openai-demo/issues/4#issuecomment-1513557835
+targetScope = 'resourceGroup'
 
 @minLength(1)
 @maxLength(64)
